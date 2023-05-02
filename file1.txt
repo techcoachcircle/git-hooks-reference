@@ -1,1 +1,1 @@
-This is a sample file on which we can make changes and test
+This is a sample file on which we can make changes and test the hook

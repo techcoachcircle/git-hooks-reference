@@ -19,7 +19,7 @@
 
 HOOK_FILE=$1
 COMMIT_MSG=`head -n1 $HOOK_FILE`
-PATTERN="^[A-Z][A-Z0-9]+-[0-9]+"
+PATTERN="[A-Z][A-Z0-9]+-[0-9]+"
 if [[ ! ${COMMIT_MSG} =~ $PATTERN ]]; then
   echo ""
   echo "    ERROR! Bad commit message. "
